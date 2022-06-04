@@ -1,6 +1,6 @@
 
 const myLogger=(req,res,next)=>{
-    console.log('Logged in');
+    console.log('Logged in module');
     next()
 }
 
